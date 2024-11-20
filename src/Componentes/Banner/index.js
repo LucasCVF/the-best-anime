@@ -1,6 +1,6 @@
 import './Banner.css'
 
-const Banner = () => {
+function Banner() {
     return(
         <header className="banner">
             <img src="/imagens/Banner.jpeg" />
