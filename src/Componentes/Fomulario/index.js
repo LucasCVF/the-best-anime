@@ -4,7 +4,7 @@ import CampoTexto from '../CampoTexto'
 import './Formulario.css'
 
 
-function Formulario() {
+function Formulario(props) {
 
     const [nome, setNome] = useState('')
     const [anime1, setAnime1] = useState('')
@@ -13,7 +13,7 @@ function Formulario() {
 
     function aoSalvar(evento) {
         evento.preventDefault()
-        console.log('deu certo =>', nome, anime1, anime2, anime3)
+        props.aoCadastrado({nome, anime1, anime2, anime3})
     }
     return (
         <section className='formulario'>
