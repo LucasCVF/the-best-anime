@@ -1,0 +1,9 @@
+.exibir-dados {
+    display: inline-block; /* Define os elementos lado a lado */
+    width: 30%; /* Ajusta o tamanho relativo */
+    margin: 0px 0px 50px 10px;  /* Espaço entre os elementos */
+    border: 1px solid #CA464C;
+    padding: 10px;
+    text-align: center;
+
+}
